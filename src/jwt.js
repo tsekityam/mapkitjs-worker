@@ -1,17 +1,17 @@
-var njwt = require("njwt");
+var jwt = require("jsonwebtoken");
 var url = require("url");
 
 async function handleRequest(request) {
-  var claims = {
-    iss: TEAM_ID,
-    iat: Math.floor(Date.now() / 1000),
-    origin: url.parse(request.url).hostname
+  var payload = {
+    origin: url.parse(request.url).hostname,
   };
 
-  var jwt = njwt.create(claims, MAPKIT_PRIVATE_KEY, "ES256");
-  jwt.setHeader("kid", KEY_ID);
-
-  var token = jwt.compact();
+  var token = jwt.sign(payload, MAPKIT_PRIVATE_KEY, {
+    algorithm: "ES256",
+    expiresIn: "60m",
+    issuer: TEAM_ID,
+    keyid: KEY_ID,
+  });
 
   const res = new Response(token);
   res.headers.set("access-control-allow-origin", "same-origin");
