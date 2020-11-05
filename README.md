@@ -11,22 +11,23 @@ It contains two parts:
 
 1. [Creating a Maps Identifier and a Private Key](https://developer.apple.com/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key)
 
-2. Update `account_id` and `zone_id` in `wrangler.toml`
+2. Add Cloudflare `account_id` to `wrangler.toml`
 
-3. Put secrets to Cloudflare Worker
+3. Add `KEY_ID` of the MapKit key and `TEAM_ID` of Apple account to `wrangler.toml`
+
+4. Put private key to Cloudflare Worker
 
    ```bash
    $ cat {path_to/AuthKey_xxx.p8} | wrangler secret put MAPKIT_PRIVATE_KEY
-   $ wrangler secret put KEY_ID
-   $ wrangler secret put TEAM_ID
    ```
 
-4. Publish to Cloudflare Worker
+5. Publish to Cloudflare Worker
 
    `$ wrangler publish`
 
 ## References
 
+- https://developers.cloudflare.com/workers/cli-wrangler/configuration
 - https://developer.apple.com/maps/web/
 - https://developer.apple.com/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js
 - https://jwt.io/
