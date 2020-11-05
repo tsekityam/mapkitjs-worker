@@ -1,8 +1,8 @@
 # MapKit JS Worker
 
-Worker for demostrating how to use MapKit JS.
+Cloudflare Workers that generate JWT for MapKit JS.
 
-This worker contains two parts.
+It contains two parts:
 
 - [`/services/jwt`](https://mapkit-js.kytse.workers.dev/services/jwt), an API that returns JWT for MapKit JS.
 - [`/`](https://mapkit-js.kytse.workers.dev/), a simple Apple Maps application, demostrating how to use the API above.
