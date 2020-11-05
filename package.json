@@ -2,7 +2,7 @@
   "name": "mapkit-js-worker",
   "private": true,
   "version": "1.0.0",
-  "description": "Worker for demostrating how to use MapKit JS",
+  "description": "Cloudflare Workers for demonstrating how to use MapKit JS",
   "author": "Tse Kit Yam <me@kytse.com>",
   "main": "index.js",
   "scripts": {
