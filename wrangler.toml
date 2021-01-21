@@ -1,6 +1,5 @@
-name = "mapkit-js"
+name = "mapkitjs"
 type = "webpack"
-account_id = ""
-
+account_id = "8ced7ddfa7e31ea36e901e98ff23188b"
+vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
 workers_dev = true
-vars = {KEY_ID = "", TEAM_ID = ""}
