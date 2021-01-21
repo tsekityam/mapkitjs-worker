@@ -7,7 +7,6 @@ workers_dev = true
 
 [env.production]
 name = "mapkitjs"
-vars = { ENVIRONMENT = "production" }
 routes = [
   "mapkitjs.kytse.com",
   "mapkitjs.kytse.com/services/jwt"
