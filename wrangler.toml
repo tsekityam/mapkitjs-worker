@@ -2,6 +2,9 @@ name = "mapkitjs"
 type = "webpack"
 account_id = "8ced7ddfa7e31ea36e901e98ff23188b"
 zone_id = "da4b407824a3bd732e75bfc5e1d2711e"
-route = "mapkitjs.kytse.com/*"
+routes = [
+  "mapkitjs.kytse.com",
+  "mapkitjs.kytse.com/services/jwt"
+]
 vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
 
