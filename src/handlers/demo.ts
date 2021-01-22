@@ -1,4 +1,5 @@
-var html = `<!DOCTYPE html>
+const Demo = async (request: Request) => {
+  const html = `<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -74,10 +75,10 @@ var html = `<!DOCTYPE html>
   </body>
 </html>`;
 
-async function handleRequest(request) {
-  const res = new Response(html);
-  res.headers.set("content-type", "text/html");
-  return res;
-}
+  const headers = {
+    "content-type": "text/html",
+  };
+  return new Response(html, { headers });
+};
 
-module.exports = handleRequest;
+export default Demo;

@@ -2,9 +2,9 @@
 
 Cloudflare Workers that generate JWT for MapKit JS.
 
-It contains two parts:
+It contains two routes:
 
-- [`/services/jwt`](https://mapkitjs.kytse.com/services/jwt), an API that returns JWT for MapKit JS.
+- [`/services/jwt`](https://mapkitjs.kytse.com/services/jwt), an API endpoint that returns JWT for MapKit JS.
 - [`/`](https://mapkitjs.kytse.com/), a simple Apple Maps application, demostrating how to use the API above.
 
 ## How to use
@@ -20,6 +20,8 @@ It contains two parts:
 5. Replace my MapKit JS `KEY_ID` with yours in `wrangler.toml`
 
 6. Replace my Apple Developer `TEAM_ID` with yours in `wrangler.toml`
+
+7. Replace my routes `ROUTES` with yours in `wrangler.toml`
 
 Once you commit the changes in `wrangler.toml` to GitHub, GitHub Actions should be triggered and deploy the services to Cloudflare Workers
 
