@@ -9,23 +9,23 @@ It contains two routes:
 
 ## How to use
 
-1. [Creating a Maps Identifier and a Private Key](https://developer.apple.com/documentation/mapkitjs/creating_a_maps_identifier_and_a_private_key)
+This repository use GitHub Actions to deploy the service to Cloudflare Workers
 
-2. Upload your Cloudflare API token to `CF_API_TOKEN` in GitHub repository secret
+1. Upload your Cloudflare API token to `CF_API_TOKEN` in GitHub repository secret
 
-3. Upload your MapKit Key to `MAPKIT_PRIVATE_KEY` in GitHub repository secret
+2. Upload your MapKit Key to `MAPKIT_PRIVATE_KEY` in GitHub repository secret
 
-4. Replace my Cloudflare `CF_ACCOUNT_ID` with yours in `.github/workflows/main.yml`
+3. Replace my Cloudflare `CF_ACCOUNT_ID` with yours in `.github/workflows/main.yml`
 
-5. Replace my Cloudflare `CF_ZONE_ID` with yours in `.github/workflows/main.yml`
+4. Replace my Cloudflare `CF_ZONE_ID` with yours in `.github/workflows/main.yml`
 
-6. Replace my MapKit JS `KEY_ID` with yours in `.github/workflows/main.yml`
+5. Replace my MapKit JS `KEY_ID` with yours in `.github/workflows/main.yml`
 
-7. Replace my Apple Developer `TEAM_ID` with yours in `.github/workflows/main.yml`
+6. Replace my Apple Developer `TEAM_ID` with yours in `.github/workflows/main.yml`
 
-8. Replace my routes `ROUTES` with yours in `wrangler.toml`
+7. Replace my routes `ROUTES` with yours in `wrangler.toml`
 
-Once you commit the changes in `wrangler.toml` to GitHub, GitHub Actions should be triggered and deploy the services to Cloudflare Workers
+Once you commit the changes to GitHub, GitHub Actions should be triggered and deploy the services to Cloudflare Workers
 
 ## References
 
