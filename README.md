@@ -19,9 +19,9 @@ This repository use GitHub Actions to deploy the service to Cloudflare Workers
 
 4. Replace my Cloudflare `CF_ZONE_ID` with yours in `.github/workflows/main.yml`
 
-5. Replace my MapKit JS `KEY_ID` with yours in `.github/workflows/main.yml`
+5. Replace my MapKit JS `KEY_ID` with yours in `wrangler.toml`
 
-6. Replace my Apple Developer `TEAM_ID` with yours in `.github/workflows/main.yml`
+6. Replace my Apple Developer `TEAM_ID` with yours in `wrangler.toml`
 
 7. Replace my routes `ROUTES` with yours in `wrangler.toml`
 

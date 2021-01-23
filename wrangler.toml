@@ -3,10 +3,12 @@ type = "webpack"
 name = "mapkitjs"
 webpack_config = "webpack.config.js"
 
+vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
 routes = [
   "mapkitjs.kytse.com",
   "mapkitjs.kytse.com/services/jwt"
 ]
 
 [env.dev]
+vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
 workers_dev = true
