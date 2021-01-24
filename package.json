@@ -1,7 +1,7 @@
 {
-  "name": "mapkitjs-dev",
+  "name": "mapkitjs-worker",
   "version": "1.0.0",
-  "description": "JWT for MapKit JS endpoint on Cloudflare worker",
+  "description": "Cloudflare Worker that generates JWT for MapKit JS",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
