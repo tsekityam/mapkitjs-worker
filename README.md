@@ -25,6 +25,8 @@ This repository use GitHub Actions to deploy the service to Cloudflare Workers
 
 7. Replace my routes `ROUTES` with yours in `wrangler.toml`
 
+8. Replace my domain `ORIGIN` with yours in `wrangler.toml`
+
 Once you commit the changes to GitHub, GitHub Actions should be triggered and deploy the services to Cloudflare Workers
 
 ## References

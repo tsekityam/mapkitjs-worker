@@ -3,12 +3,12 @@ type = "webpack"
 name = "mapkitjs"
 webpack_config = "webpack.config.js"
 
-vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
+vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB", ORIGIN = "https://mapkitjs.kytse.com"}
 routes = [
   "mapkitjs.kytse.com",
   "mapkitjs.kytse.com/services/jwt"
 ]
 
 [env.dev]
-vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB"}
+vars = {KEY_ID = "G76D7DXT9W", TEAM_ID = "JVD8WT99LB", ORIGIN = "http://127.0.0.1:8787"}
 workers_dev = true

@@ -2,7 +2,7 @@ var jwt = require("jsonwebtoken");
 
 const MapKitJS = async (request: Request) => {
   var payload = {
-    origin: new URL(request.url).origin,
+    origin: ORIGIN,
   };
 
   var token = jwt.sign(payload, MAPKIT_PRIVATE_KEY, {
@@ -13,7 +13,7 @@ const MapKitJS = async (request: Request) => {
   });
 
   const headers = {
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": ORIGIN,
   };
   return new Response(token, { headers });
 };
