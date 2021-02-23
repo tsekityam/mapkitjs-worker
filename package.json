@@ -29,7 +29,7 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "itty-router": "^1.5.0",
+    "itty-router": "^2.0.0",
     "jsonwebtoken": "^8.5.1"
   }
 }
