@@ -21,4 +21,3 @@ jobs:
           CF_ACCOUNT_ID: 8ced7ddfa7e31ea36e901e98ff23188b
           CF_ZONE_ID: da4b407824a3bd732e75bfc5e1d2711e
           MAPKIT_PRIVATE_KEY: ${{ secrets.MAPKIT_PRIVATE_KEY }}
-
