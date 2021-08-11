@@ -1,6 +1,7 @@
 # MapKit JS Worker
 
 ![Deploy](https://github.com/tsekityam/mapkitjs-worker/workflows/Deploy/badge.svg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftsekityam%2Fmapkitjs-worker.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftsekityam%2Fmapkitjs-worker?ref=badge_shield)
 
 Cloudflare Workers that generate JWT for MapKit JS.
 
@@ -38,3 +39,7 @@ Once you commit the changes to GitHub, GitHub Actions should be triggered and de
 - https://developer.apple.com/maps/web/
 - https://developer.apple.com/documentation/mapkitjs/creating_and_using_tokens_with_mapkit_js
 - https://jwt.io/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftsekityam%2Fmapkitjs-worker.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftsekityam%2Fmapkitjs-worker?ref=badge_large)
