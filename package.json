@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^2.2.2",
-    "@types/chai": "^4.2.15",
+    "@types/chai": "^4.2.21",
     "@types/mocha": "^8.2.1",
     "@types/node": "^16.4.13",
     "chai": "^4.3.4",
