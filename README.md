@@ -1,4 +1,5 @@
 # MapKit JS Worker
+
 ![Deploy](https://github.com/tsekityam/mapkitjs-worker/workflows/Deploy/badge.svg)
 
 Cloudflare Workers that generate JWT for MapKit JS.
