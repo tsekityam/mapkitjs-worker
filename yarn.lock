@@ -826,10 +826,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-itty-router@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/itty-router/-/itty-router-2.4.0.tgz#c13f18b04b4789821b10f4c88d3ccf00aabf8924"
-  integrity sha512-FsWLyLm/6s7MMRC55QZJDlDXae+3WPy7ahEbJVKMIrSh7NfZ+zBL32hNUPn9RqTypjmNO3Abi+mqc+VvDvWYtg==
+itty-router@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/itty-router/-/itty-router-2.4.2.tgz#5680f880f618ef9dc14148f47b9885bd09e5a015"
+  integrity sha512-VCJPoGKYrCoFSGQ9kko5prt66SHVppde498kj9XkMuZVrLCaG6xSIMIz/qaqW/mWk34BJPYGzhvWMf6l8g/CnA==
 
 jest-worker@^27.0.2:
   version "27.0.6"
